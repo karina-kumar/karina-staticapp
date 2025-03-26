@@ -11,10 +11,10 @@
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
     {% for ship in pirates.ships %}
     <div class="col">
-        <div class="card h-100">
+        <div class="card h-100 border-dark">
         <div class="card-body">
             <h5 class="card-title">{{ ship.ship_name }}</h5>
-            <h6>{{ ship.captain}}</h6>
+            <h6 class="text-secondary">{{ ship.captain}}</h6>
             <p class="card-text">{{ ship.blurb }}</p>
         </div>
         <div class="card-footer">
